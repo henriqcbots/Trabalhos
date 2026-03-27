@@ -6,8 +6,10 @@
     , initial-scale=1.0">
     <title>Document</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
 </head>
 <body>
+    <h1 id='titulo' >Teste</h1>
     <nav class="Menu">
         <ul>
             <li class="logo"><a href="#">Logo</a></li>
@@ -19,14 +21,44 @@
         </ul>
     </nav>
         <div class="card">
-            <img src="Contem leite.png" >
+            <img src="Contem leite.png">
 
             <div class="info">
                 <p>É um Monster de leite</p>
             </div>
         </div>
 
-
+        <div class="containerForm">
+            <h2 class="tituloForm">Criador de Card</h2></br>
+            <form class="formCard">
+                <div class="Forms">
+                    <label for="alname">Nome do Album:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Ex. Clube da Esquina"><br>
+                </div>
+                <div class="Forms">
+                    <label for="lalbum">Link do Album:</label><br>
+                    <input type="url" id="lname" name="lname" placeholder="Ex. Link"><br>
+                </div>
+                <div class="Forms">
+                    <label for="arname">Artista:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Ex. MBP4"><br>
+                </div>
+                <div class="Forms">
+                <div class="Forms">
+                    <label for="lname">Link do Artista:</label><br>
+                    <input type="url" id="lname" name="lname" placeholder="Ex. Spotify"><br>
+                </div>
+                <div class="Forms">
+                    <label for="lname">Gênero:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Ex. Bossa Nova"><br>
+                </div>
+                <div class="Forms">
+                    <label for="lname">Nota do Album:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Ex. 10/10"><br>
+                </div>
+                <input class="btSubmit" type="submit" value="Submeter">
+            </form>
+    
 
 </body>
 </html>
