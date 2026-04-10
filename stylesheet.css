@@ -52,6 +52,7 @@ body {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(104, 104, 104, 0.8), transparent);
+    pointer-events: none;
 }
 
 .info {

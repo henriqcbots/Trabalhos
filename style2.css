@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 1px solid red !important;
+}
+
+
+body {
+    background-color: rgb(134, 157, 187);
+}
+
+.logo {
+    padding: 0px;
+    gap: 0px;
+    margin: 0px;
+}
+
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+.Menu ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin: 10px;
+
+}
+
+.Menu a{
+    color: white;
+}
+
+
+.Info-Music {
+    color: white;
+    display: block;      
+    text-align: center;  
+    margin-top: 20px;    
+}
+
+.Info-Music h3 {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.Info-Music img {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+
+}
